@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain For Sale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+        }
+        .domain-gradient {
+            background: linear-gradient(to right, #111827, #374151);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-6 text-center">
+
+    <main class="max-w-2xl w-full">
+        <!-- Status Tag -->
+        <div class="mb-8">
+            <span class="text-xs font-bold tracking-widest uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                Available for Purchase
+            </span>
+        </div>
+
+        <!-- Domain Name -->
+        <h1 id="domain-display" class="text-5xl md:text-7xl font-bold mb-6 tracking-tight domain-gradient">
+            broadcomlpo.com
+        </h1>
+
+        <!-- Simple Message -->
+        <p class="text-xl text-gray-500 mb-12 leading-relaxed">
+            This premium domain name is currently for sale. <br class="hidden md:block">
+            If you are interested in acquiring it, please reach out below.
+        </p>
+
+        <!-- Direct Contact -->
+        <div class="space-y-6">
+            <a href="mailto:domain@broadcomlpo.com" class="inline-block bg-gray-900 text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-gray-800 transition-colors shadow-xl">
+                Contact to Buy
+            </a>
+            
+            <div class="pt-4">
+                <p class="text-sm text-gray-400">
+                    Direct inquiries: <span class="font-medium text-gray-600">domain@broadcomlpo.com</span>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Simple Footer -->
+    <footer class="absolute bottom-8 w-full text-center">
+        <p class="text-xs text-gray-300 uppercase tracking-widest">
+            Safe Transfer Guaranteed
+        </p>
+    </footer>
+</body>
+</html>
